@@ -10,7 +10,9 @@
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(custom-safe-themes (quote ("7c80494baabab0051a2d5d635fae64e5bf40975160cea3e16b0289f647d381fa" default)))
+ '(enh-ruby-bounce-deep-indent t)
  '(menu-bar-mode nil)
+ '(safe-local-variable-values (quote ((encoding . utf-8))))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces
