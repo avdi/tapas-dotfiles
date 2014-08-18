@@ -9,3 +9,11 @@
 /.gconf/
 /.gem/
 /.gitconfig
+/.local/
+/.rubies/
+/.ssh/
+/.xscreensaver*
+/.xsession-errors
+/.xsession-errors.old
+/src/
+/.dmrc
