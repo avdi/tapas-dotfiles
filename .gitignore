@@ -1,0 +1,11 @@
+*~
+/.vboxclient-*.pid
+/.Xauthority
+/.bash_history
+
+/.cache/
+/.cask/
+/.emacs.d/.cask/
+/.gconf/
+/.gem/
+/.gitconfig
