@@ -7,10 +7,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(backup-directory-alist (quote (("." . "~/.emacs.d/backup"))))
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(custom-safe-themes (quote ("7c80494baabab0051a2d5d635fae64e5bf40975160cea3e16b0289f647d381fa" default)))
  '(enh-ruby-bounce-deep-indent t)
+ '(eshell-scroll-show-maximum-output nil)
+ '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
  '(safe-local-variable-values (quote ((encoding . utf-8))))
  '(scroll-bar-mode nil)
@@ -53,6 +56,7 @@
 	     rcodetools-dir)
 (setq xmpfilter-command-name 
       "ruby -S xmpfilter --no-warnings --dev --fork --detect-rbtest")
+(require 'rcodetools)
 
 ;; Make rcodetools.el work with enh-ruby-mode
 (defadvice comment-dwim (around rct-hack activate)
