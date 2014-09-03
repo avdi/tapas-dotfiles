@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=LXRandR autostart
-Comment=Start xrandr with settings done in LXRandR
-Exec=xrandr --output VBOX0 --mode 1280x720 --rate 60.0
-OnlyShowIn=LXDE
