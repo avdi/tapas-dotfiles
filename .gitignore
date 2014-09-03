@@ -17,3 +17,9 @@
 /.xsession-errors.old
 /src/
 /.dmrc
+/.config/
+/.dbus/
+/.emacs.d/eshell/
+/.ido.last
+/.mozilla/
+/.thumbnails/
